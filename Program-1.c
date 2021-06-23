@@ -10,7 +10,7 @@ int main()
     int count = 0;
 
     /* Input number from user */
-    printf("Enter any number: ");
+    
     scanf("%d", &num);
 
     /* Run loop till num is greater than 0 */
@@ -21,9 +21,9 @@ int main()
 
         /* Remove last digit of 'num' */
         num /= 10;
-    } while(  != 0);
+    } while( num != 0);
 
-    printf("Total digits: %d", );
+    printf(" %d", count );
 
     return 0;
 }

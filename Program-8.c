@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main(){
   int n,flag=0,i,key,a[10],c=0;
-  printf("Enter size of the array,  array elemnts and the key");
+ 
   scanf("%d",&n);
   //printf("Enter array elements");
   for(i=0;i<n;i++)//missing code
@@ -12,7 +12,7 @@ int main(){
   scanf("%d",&key);
   
     for(i=0;i<n;i++){
-  if(key==a[]) //missing code
+  if(key==a[i]) //missing code
   {
     //flag=1;
     c++;

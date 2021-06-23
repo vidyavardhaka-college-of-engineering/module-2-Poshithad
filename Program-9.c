@@ -8,7 +8,7 @@ int main()
 {
   int array[100], search, c, n;
 
-  printf("Enter number of elements in the array, array elements and the key");
+  
   scanf("%d", &n);
 
   
@@ -28,7 +28,7 @@ int main()
     }
   }
   if (c == n)
-    printf("%d is not present in the array", );
+    printf("%d",c);
 
   return 0;
 }

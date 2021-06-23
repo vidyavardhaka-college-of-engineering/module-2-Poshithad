@@ -7,8 +7,7 @@
 int main()
 {
     int arr[100], n, i, small, large;
-    printf("Enter how many values you want to read and values");
-    scanf("%d", &n);
+     scanf("%d", &n);
 
     for (i = 0; i < n; i++)
     {
@@ -28,12 +27,12 @@ int main()
         
         if (arr[i] >large  )//missing code
         {
-            large= arr[];//missing code
+            large= arr[i];//missing code
         }
     }
 
-    printf("The largest element of the array = %d", large);
-    printf("The smallest element of the array = %d",);
+    printf("The largest and smallest elements are %d and %d", large, small);
+    
 
     return 0;
 }
